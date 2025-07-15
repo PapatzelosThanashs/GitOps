@@ -1,7 +1,7 @@
 image:
-  repository: quarkus
+  repository: host.docker.internal:30050/quarkus
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "myversion"
+  tag: "0.1.273"
 replicaCount: 1  
