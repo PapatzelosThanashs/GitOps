@@ -1,5 +1,5 @@
 image:
-  repository: nexus-nexus-repository-manager:5000/quarkus
+  repository: host.docker.internal:30050/quarkus
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
